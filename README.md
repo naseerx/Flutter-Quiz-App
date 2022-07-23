@@ -7,7 +7,7 @@ Test your kids with this amazing bsic quiz app
 
 ## Authors
 
-- [@Muhammad Naseer](https://www.github.com/naseer)
+- [@Muhammad Naseer](https://www.github.com/naseerz)
 
 ---
 
