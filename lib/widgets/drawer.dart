@@ -18,12 +18,12 @@ class AppDrawer extends StatelessWidget {
 
     return Drawer(
 
-      backgroundColor: Colors.blue,
+      backgroundColor: Color(0xffFFDF2B),
       child: ListView(
         padding: EdgeInsets.zero,
         children: [
           DrawerHeader(
-            child: Center(child: Text('My Quizz\n  App',style:TextStyle(fontSize: 40,color: Colors.white,fontFamily: 'd'),)),
+            child: Center(child: Text('My Quizz\n  App',style:TextStyle(fontSize: 40,color: Color(0xffFFDF2B),fontFamily: 'd'),)),
             decoration: BoxDecoration(
               borderRadius: BorderRadius.only(
                 bottomLeft: Radius.circular(40),
@@ -149,13 +149,13 @@ class AppDrawer extends StatelessWidget {
           ListTile(
             leading: Icon(
               Icons.info_outlined,
-              color: Colors.white,
+              color: Colors.purple  ,
               size: 30,
             ),
             title: Text(
               'WEBSITE',
               style: TextStyle(
-                  color: Colors.white, fontFamily: 'b', fontSize: 22),
+                  color: Colors.purple, fontFamily: 'b', fontSize: 22),
             ),
             onTap: () async {
               if (await CheckNet.isConnected()) {

@@ -5,7 +5,6 @@ import 'package:rating_dialog/rating_dialog.dart';
 
 import '../widgets/drawer.dart';
 
-
 class MyHomeScreen extends StatefulWidget {
   const MyHomeScreen({Key? key}) : super(key: key);
 
@@ -19,12 +18,13 @@ class _MyHomeScreenState extends State<MyHomeScreen> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Color(0xffa35add),
+        foregroundColor: Color(0xffFFDF2B),
         title: Center(
           child: Text(
             'My Quiz App',
             style: TextStyle(
               fontSize: 26,
-              color: Colors.white,
+
             ),
           ),
         ),
@@ -33,7 +33,6 @@ class _MyHomeScreenState extends State<MyHomeScreen> {
             icon: const Icon(
               Icons.star,
               size: 40,
-              color: Colors.white,
             ),
             onPressed: () {
               showDialog(
@@ -43,7 +42,7 @@ class _MyHomeScreenState extends State<MyHomeScreen> {
                 builder: (context) => RatingDialog(
                   initialRating: 1.0,
                   title: Text(
-                    'My Quizz',
+                    'My Quiz',
                     textAlign: TextAlign.center,
                     style: const TextStyle(
                       fontSize: 40,
@@ -69,30 +68,28 @@ class _MyHomeScreenState extends State<MyHomeScreen> {
               );
             },
           ),
-
         ],
       ),
       drawer: AppDrawer(),
       body: Center(
         child: Stack(
+          alignment: AlignmentDirectional.center,
           children: [
             Image.asset(
-              'assets/hom.jpg',
+              'assets/quiz.png',
               width: double.infinity,
               height: double.infinity,
               fit: BoxFit.cover,
             ),
             Positioned(
-              top: 545,
-              left: 30,
-
+              bottom: 100,
               child: Container(
-                width: 340,
                 height: 50,
+                width: 300,
                 child: ElevatedButton(
                   style: ElevatedButton.styleFrom(
-                    primary: Colors.green,
-                    onPrimary: Colors.black,
+                    primary: Color(0xffFFDF2B),
+                    onPrimary: Colors.purple,
                     padding: EdgeInsets.all(0.0),
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(16),
@@ -110,7 +107,8 @@ class _MyHomeScreenState extends State<MyHomeScreen> {
                       child: Text(
                         'Start Quiz',
                         textAlign: TextAlign.center,
-                        style: TextStyle(color: Colors.white, fontSize: 30,fontFamily: 'b'),
+                        style: TextStyle(
+                             fontSize: 30, fontFamily: 'b'),
                       ),
                     ),
                   ),

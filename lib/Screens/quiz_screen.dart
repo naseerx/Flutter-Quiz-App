@@ -96,7 +96,8 @@ class _QuizScreenState extends State<QuizScreen> {
                           ),
                           Positioned(
                             top: 170,
-                            left: 13,
+                           left: 20,
+                            right: 20,
                             child: Container(
                               height: 220,
                               width: 300,
@@ -143,8 +144,9 @@ class _QuizScreenState extends State<QuizScreen> {
                             ),
                           ),
                           Positioned(
-                            left: 120,
                             top: 125,
+                            left: 10,
+                            right: 10,
                             child: Visibility(
                               visible: !isVisible,
                               child: CircleAvatar(
@@ -205,7 +207,7 @@ class _QuizScreenState extends State<QuizScreen> {
                                       toastLength: Toast.LENGTH_SHORT,
                                       gravity: ToastGravity.BOTTOM,
                                       timeInSecForIosWeb: 1,
-                                      backgroundColor: Colors.red,
+                                      backgroundColor: Colors.green,
                                       textColor: Colors.white,
                                       fontSize: 16.0,
                                     );
