@@ -1,16 +1,18 @@
-# quiz_app
+# Hi, I'm NASEER! 👋
+# Quiz app
 
-A new Flutter project.
+Test your kids with this amazing bsic quiz app
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+## Authors
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+- [@Muhammad Naseer](https://www.github.com/naseer)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+## Screenshots
+![Settings Window](https://raw.github.com/naseerz/Flutter-Quiz-App/master/screenShot/1.jpeg)
+
+![Settings Window](https://raw.github.com/naseerz/Flutter-Quiz-App/master/screenShot/2.jpeg)
+
+![Settings Window](https://raw.github.com/naseerz/Flutter-Quiz-App/master/screenShot/3.jpeg)
